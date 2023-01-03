@@ -4,10 +4,8 @@ MY_MONEY = config('MY_MONEY', cast=int)
 
 while True:
     user_answer = input('хотите ли вы сыграть еще(да или нет): ')
-    if user_answer == 'no':
     if user_answer == 'нет':
         break
-    elif user_answer != 'no' and user_answer != 'ye':
     elif user_answer != 'нет' and user_answer != 'да':
         continue
     user_slot = int(input('введите число от 1 до 30: '))
