@@ -27,7 +27,7 @@ print('значение', a, 'под индексом: ', my_list.index(a))
 def bubble_sort(b):
     for i in range(len(b)):
         for j in range(len(b) - 1):
-            if b[j] > b[j+1]:
+            if b[j] > b[j+1]:з
                 temp = b[j]
                 b[j] = b[j+1]
                 b[j+1] = temp
